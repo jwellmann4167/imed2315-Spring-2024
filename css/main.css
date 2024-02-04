@@ -32,12 +32,57 @@ h2 {
   background-color: var(--dominantColor) !important;
 }
 
+/* begin divider */
+.custom-shape-divider-top-1706418916 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1706418916 svg {
+  position: relative;
+  display: block;
+  width: calc(135% + 1.3px);
+  height: 155px;
+}
+
+.custom-shape-divider-top-1706418916 .shape-fill {
+  fill: #8F090F;
+}
+
+/* end divider */
+/*Begin Responsive Design*/
+@media screen and (max-width: 600px) {
+  .navbar.responsive {
+    position: relative;
+  }
+
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/*End Responsive Design*/
+
 .nav-link {
   font-family: "Purple Purse", cursive;
   font-weight: bold;
   color: #f2e6d9 !important;
   font-size: 20px;
 }
+
 /* ADD THE CLASS .custom-toggler TO THE HAMBURGUER MENU*/
 /*under main.css added*/
 
@@ -65,6 +110,7 @@ h2 {
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
+
 /* ADD THE CLASS .custom-toggler TO THE HAMBURGUER MENU*/
 
 /*
