@@ -33,26 +33,6 @@ h2 {
 }
 
 /* begin divider */
-.custom-shape-divider-top-1706418916 {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-top-1706418916 svg {
-  position: relative;
-  display: block;
-  width: calc(135% + 1.3px);
-  height: 155px;
-}
-
-.custom-shape-divider-top-1706418916 .shape-fill {
-  fill: #8F090F;
-}
 
 /* end divider */
 /*Begin Responsive Design*/
@@ -111,7 +91,7 @@ h2 {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-/* ADD THE CLASS .custom-toggler TO THE HAMBURGUER MENU*/
+/* ADD THE CLASS .custom-toggler TO THE HAMBURGER MENU*/
 
 /*
 #my-google-fonts {
