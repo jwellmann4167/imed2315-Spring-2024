@@ -33,7 +33,26 @@ h2 {
 }
 
 /* begin divider */
+.custom-shape-divider-top-1707346589 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
 
+.custom-shape-divider-top-1707346589 svg {
+  position: relative;
+  display: block;
+  width: calc(163% + 1.3px);
+  height: 209px;
+}
+
+.custom-shape-divider-top-1707346589 .shape-fill {
+  fill: #8F090F;
+}
 /* end divider */
 /*Begin Responsive Design*/
 @media screen and (max-width: 600px) {
