@@ -5,12 +5,15 @@ html {
 body {
   font-family: "Roboto Slab", serif;
   background-color: #f2e6d9;
+  
 }
 
 h1,
 h2 {
   font-family: "Purple Purse", cursive;
   color: var(--secondaryColor) !important;
+  
+  
 }
 
 .top-logo {
@@ -23,6 +26,7 @@ h2 {
   padding-bottom: 40px;
   background-color: #f2e6d9;
   font-size: 65px;
+  letter-spacing: .1rem;
   /*font-family: ;*/
 }
 
@@ -30,10 +34,11 @@ h2 {
   font-family: "Purple Purse", cursive;
   color: #f2e6d9;
   background-color: var(--dominantColor) !important;
+  letter-spacing: .1rem;
 }
 
 /* begin divider */
-.custom-shape-divider-top-1707346589 {
+.custom-shape-divider-top-1707351291 {
   position: relative;
   top: 0;
   left: 0;
@@ -43,17 +48,63 @@ h2 {
   transform: rotate(180deg);
 }
 
-.custom-shape-divider-top-1707346589 svg {
+.custom-shape-divider-top-1707351291 svg {
   position: relative;
   display: block;
-  width: calc(163% + 1.3px);
-  height: 209px;
+  width: calc(149% + 1.3px);
+  height: 138px;
 }
 
-.custom-shape-divider-top-1707346589 .shape-fill {
+.custom-shape-divider-top-1707351291 .shape-fill {
   fill: #8F090F;
 }
 /* end divider */
+
+/* begin second divider */
+.custom-shape-divider-top-1707351909 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1707351909 svg {
+  position: relative;
+  display: block;
+  width: calc(149% + 1.3px);
+  height: 58px;
+}
+
+.custom-shape-divider-top-1707351909 .shape-fill {
+  fill: #8F090F;
+}
+/* end second divider */
+
+/* begin bottom divider */
+.custom-shape-divider-bottom-1707352036 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1707352036 svg {
+  position: relative;
+  display: block;
+  width: calc(137% + 1.3px);
+  height: 58px;
+}
+
+.custom-shape-divider-bottom-1707352036 .shape-fill {
+  fill: #8F090F;
+}
+/* end second divider */
+
 /*Begin Responsive Design*/
 @media screen and (max-width: 600px) {
   .navbar.responsive {
@@ -80,6 +131,7 @@ h2 {
   font-weight: bold;
   color: #f2e6d9 !important;
   font-size: 20px;
+  letter-spacing: .1rem;
 }
 
 /* ADD THE CLASS .custom-toggler TO THE HAMBURGUER MENU*/
@@ -90,6 +142,7 @@ h2 {
   font-weight: bold;
   color: #000000 !important;
   font-size: 35px;
+  letter-spacing: .1rem;
 }
 
 /* Set the border color */
@@ -124,7 +177,9 @@ h2 {
 .material-symbols-outlined {
   color: var(--dominantColor) !important;
   font-size: 60px;
+  letter-spacing: .1rem;
 }
+
 
 .footer-row {
   background-color: var(--dominantColor) !important;
@@ -138,6 +193,7 @@ h2 {
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
+  letter-spacing: .1rem;
 }
 
 .fa-social-media,
@@ -156,6 +212,7 @@ blockquote {
   line-height: 1.45;
   position: relative;
   color: var(--accentColor) !important;
+  
 }
 
 blockquote:before {
@@ -185,4 +242,5 @@ blockquote cite:before {
 .sidebar-icon a {
   color: var(--dominantColor) !important;
   text-decoration: none;
+  
 }
