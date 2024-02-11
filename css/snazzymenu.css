@@ -190,7 +190,7 @@
 }
 
 .menu-btn.active {
-    border-color: transparent
+    border-color: #8f090f
 }
 
 .menu-btn.active:before {
