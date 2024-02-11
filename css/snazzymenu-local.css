@@ -59,23 +59,8 @@
             overflow-x: hidden
         }
 
-        h1 {
-            margin: 0 0 .5rem;
-            color: #22272e
-        }
 
-        h2 {
-            font-size: 1.25rem;
-            font-weight: 500;
-            margin: 0;
-            color: #22272e
-        }
-
-        h3 {
-            margin: 0 0 1rem;
-            font-weight: 600;
-            color: #22272e
-        }
+    
 
         p {
             margin: 0;
