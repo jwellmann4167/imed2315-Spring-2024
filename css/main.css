@@ -22,7 +22,8 @@ h2 {
   font-weight: bold;
   color: var(--dominantColor) !important;
   font-size: 55px;
-
+padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
   background-color: #f2e6d9;
   font-size: 65px;
   letter-spacing: .1rem;
