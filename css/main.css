@@ -8,12 +8,7 @@ body {
   
 }
 
-h1{
-    font-family: "Purple Purse", cursive;
-    color: var(--secondaryColor) !important;
-
-
-  }
+h1,
 h2 {
   font-family: "Purple Purse", cursive;
   color: var(--secondaryColor) !important;
@@ -25,7 +20,7 @@ h2 {
   font-family: "Purple Purse", cursive;
   height: auto;
   font-weight: bold;
-  color: var(--secondaryColor) !important;
+  color: var(--dominantColor) !important;
   font-size: 55px;
   padding-top: 40px;
   padding-bottom: 40px;
