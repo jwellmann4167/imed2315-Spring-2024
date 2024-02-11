@@ -34,7 +34,7 @@ h2 {
   position: relative;
   bottom: 0;
   left: 0;
-  width: calc(169% + 20px);
+  width: calc(169% + 1.3px);
   overflow: hidden;
   line-height: 0;
 }
@@ -42,7 +42,7 @@ h2 {
 .custom-shape-divider-bottom-1707626366 svg {
   position: relative;
   display: block;
-  width: calc(169% + 1.3px);
+  width: calc(200% + 1.3px);
   height: 143px;
 }
 
