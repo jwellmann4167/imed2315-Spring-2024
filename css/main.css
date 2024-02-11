@@ -42,7 +42,7 @@ h2 {
 .custom-shape-divider-bottom-1707626366 svg {
   position: relative;
   display: block;
-  width: 100%;
+  width: calc(169% + 1.3px);
   height: 143px;
 }
 
