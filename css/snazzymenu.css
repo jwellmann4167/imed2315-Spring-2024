@@ -261,7 +261,9 @@
 
 .snazzymenu.dark .menu-toggle,
 .snazzymenu.dark ul li a {
-    color: #f2e6d9
+        font-family: "Purple Purse", cursive;
+            color: #f2e6d9;
+            letter-spacing: .1rem;
 }
 
 .snazzymenu.dark.mobile .menu.caret li.has-sub .toggle:after {
