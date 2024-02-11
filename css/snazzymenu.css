@@ -91,8 +91,8 @@
     border-top: 1px solid #8f090f;
     position: absolute;
     width: 100%;
-    z-index: 999
-    
+    z-index: 999 font-family: "Purple Purse", cursive;
+    color: #f2e6d9;
 }
 
 .snazzymenu ul li a {
@@ -296,7 +296,7 @@
 }
 
 .snazzymenu.dark.desktop .menu .mega-menu {
-    background-color:#8f090f
+    background-color: #8f090f
 }
 
 .snazzymenu.dark .controls a {
