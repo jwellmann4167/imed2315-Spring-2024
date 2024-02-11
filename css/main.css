@@ -30,6 +30,28 @@ h2 {
   /*font-family: ;*/
 }
 
+/*header divider*/
+.custom-shape-divider-bottom-1707626366 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1707626366 svg {
+  position: relative;
+  display: block;
+  width: calc(169% + 1.3px);
+  height: 143px;
+}
+
+.custom-shape-divider-bottom-1707626366 .shape-fill {
+  fill: #8F090F;
+}
+/*header divider*/
+
 .navbar {
   font-family: "Purple Purse", cursive;
   color: #f2e6d9;
