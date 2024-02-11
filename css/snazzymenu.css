@@ -92,7 +92,6 @@
     position: absolute;
     width: 100%;
     z-index: 999
-    
 }
 
 .snazzymenu ul li a {
@@ -296,13 +295,12 @@
 }
 
 .snazzymenu.dark.desktop .menu .mega-menu {
-    background-color:#8f090f
+    background-color: #8f090f
 }
 
 .snazzymenu.dark .controls a {
-        font-family: "Purple Purse", cursive;
-            color: #f2e6d9;
-    color: #f2e6d9
+    font-family: "Purple Purse", cursive;
+    color: #f2e6d9 letter-spacing: .1rem;
 }
 
 .snazzymenu.light {
