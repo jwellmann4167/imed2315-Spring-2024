@@ -300,7 +300,8 @@
 
 .snazzymenu.dark .controls a {
     font-family: "Purple Purse", cursive;
-    color: #f2e6d9 letter-spacing: .1rem;
+    color: #f2e6d9;
+    letter-spacing: .1rem;
 }
 
 .snazzymenu.light {
