@@ -311,8 +311,8 @@
 }
 
 .snazzymenu.light.mobile .menu.caret li.has-sub .toggle:after {
-    border-bottom: 1px solid #8f090f;
-    border-right: 1px solid #8f090f
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000
 }
 
 .snazzymenu.light.mobile .menu.plus li.has-sub .toggle:after {
@@ -332,12 +332,12 @@
 }
 
 .snazzymenu.light.desktop .menu.open>li.active>a:after {
-    border-color: #8f090f
+    border-color: rgba(0, 0, 0, .6)
 }
 
 .snazzymenu.light.desktop .menu>li.has-sub>a:after {
-    border-bottom: 1px solid #8f090f;
-    border-right: 1px solid #8f090f
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000
 }
 
 .snazzymenu.light.desktop .menu .mega-menu {
