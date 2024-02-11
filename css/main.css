@@ -34,7 +34,7 @@ h2 {
   position: relative;
   bottom: 0;
   left: 0;
-  width: calc(169% + 1.3px);
+  width: calc(200% + 1.3px);
   overflow: hidden;
   line-height: 0;
 }
