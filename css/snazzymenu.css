@@ -278,7 +278,7 @@
 }
 
 .snazzymenu.dark.desktop .menu {
-    background: rgba(0, 0, 0, .95)
+    background: #8f090f
 }
 
 .snazzymenu.dark.desktop .menu.open>li.active>a {
