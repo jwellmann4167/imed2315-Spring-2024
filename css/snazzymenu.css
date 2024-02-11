@@ -256,8 +256,7 @@
 }
 
 .snazzymenu.dark {
-    background: rgba(0, 0, 0, .95)
-}
+    background: #8f090f
 
 .snazzymenu.dark .menu-toggle,
 .snazzymenu.dark ul li a {
@@ -278,8 +277,7 @@
 }
 
 .snazzymenu.dark.desktop .menu {
-    background: rgba(0, 0, 0, .95)
-}
+    background: #8f090f
 
 .snazzymenu.dark.desktop .menu.open>li.active>a {
     color: hsla(0, 0%, 100%, .6)
@@ -295,8 +293,7 @@
 }
 
 .snazzymenu.dark.desktop .menu .mega-menu {
-    background-color: rgba(0, 0, 0, .95)
-}
+    background-color: #8f090f
 
 .snazzymenu.dark .controls a {
     color: #fff
