@@ -87,8 +87,8 @@
 }
 
 .snazzymenu {
-    border-bottom: 1px solid #8f090f;
-    border-top: 1px solid #8f090f;
+    border-bottom: 1px solid ar(--dominantColor) !important;;
+    border-top: 1px solid ar(--dominantColor) !important;;
     position: absolute;
     width: 100%;
     z-index: 999
@@ -135,7 +135,7 @@
 }
 
 .close-overlay {
-    background: #8f090f;
+    background: ar(--dominantColor) !important;;
     bottom: 0;
     height: 100%;
     left: 0;
@@ -256,7 +256,7 @@
 }
 
 .snazzymenu.dark {
-    background: #8f090f
+    background: ar(--dominantColor) !important;
 }
 
 .snazzymenu.dark .menu-toggle,
@@ -278,7 +278,7 @@
 }
 
 .snazzymenu.dark.desktop .menu {
-    background: #8f090f
+    background: ar(--dominantColor) !important;
 }
 
 .snazzymenu.dark.desktop .menu.open>li.active>a {
@@ -295,7 +295,7 @@
 }
 
 .snazzymenu.dark.desktop .menu .mega-menu {
-    background-color:#8f090f
+    background-color:ar(--dominantColor) !important;
 }
 
 .snazzymenu.dark .controls a {
@@ -329,11 +329,11 @@
 }
 
 .snazzymenu.light.desktop .menu.open>li.active>a {
-    color: #8f090f
+    color: ar(--dominantColor) !important;
 }
 
 .snazzymenu.light.desktop .menu.open>li.active>a:after {
-    border-color: #8f090f
+    border-color: ar(--dominantColor) !important;
 }
 
 .snazzymenu.light.desktop .menu>li.has-sub>a:after {
