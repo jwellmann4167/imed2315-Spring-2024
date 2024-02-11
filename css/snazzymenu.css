@@ -256,7 +256,7 @@
 }
 
 .snazzymenu.dark {
-    background: rgba(0, 0, 0, .95)
+    background: #8f090f
 }
 
 .snazzymenu.dark .menu-toggle,
@@ -278,8 +278,7 @@
 }
 
 .snazzymenu.dark.desktop .menu {
-    background: rgba(0, 0, 0, .95)
-}
+    background: #8f090f
 
 .snazzymenu.dark.desktop .menu.open>li.active>a {
     color: hsla(0, 0%, 100%, .6)
@@ -295,7 +294,7 @@
 }
 
 .snazzymenu.dark.desktop .menu .mega-menu {
-    background-color: rgba(0, 0, 0, .95)
+    background-color: #8f090f
 }
 
 .snazzymenu.dark .controls a {
@@ -308,12 +307,12 @@
 
 .snazzymenu.light .menu-btn,
 .snazzymenu.light ul li a {
-    color: #000
+    color: #8f090f
 }
 
 .snazzymenu.light.mobile .menu.caret li.has-sub .toggle:after {
-    border-bottom: 1px solid #000;
-    border-right: 1px solid #000
+    border-bottom: 1px solid #8f090f;
+    border-right: 1px solid #8f090f
 }
 
 .snazzymenu.light.mobile .menu.plus li.has-sub .toggle:after {
@@ -329,16 +328,16 @@
 }
 
 .snazzymenu.light.desktop .menu.open>li.active>a {
-    color: rgba(0, 0, 0, .6)
+    color: #8f090f
 }
 
 .snazzymenu.light.desktop .menu.open>li.active>a:after {
-    border-color: rgba(0, 0, 0, .6)
+    border-color: #8f090f
 }
 
 .snazzymenu.light.desktop .menu>li.has-sub>a:after {
-    border-bottom: 1px solid #000;
-    border-right: 1px solid #000
+    border-bottom: 1px solid #8f090f;
+    border-right: 1px solid #8f090f
 }
 
 .snazzymenu.light.desktop .menu .mega-menu {
