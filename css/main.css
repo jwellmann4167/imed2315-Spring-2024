@@ -38,8 +38,8 @@ h2 {
 }
 
 /* begin divider */
-.custom-shape-divider-top-1707351291 {
-  position: relative;
+.custom-shape-divider-top-1707626112 {
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -48,14 +48,14 @@ h2 {
   transform: rotate(180deg);
 }
 
-.custom-shape-divider-top-1707351291 svg {
+.custom-shape-divider-top-1707626112 svg {
   position: relative;
   display: block;
-  width: calc(149% + 1.3px);
-  height: 138px;
+  width: calc(169% + 1.3px);
+  height: 143px;
 }
 
-.custom-shape-divider-top-1707351291 .shape-fill {
+.custom-shape-divider-top-1707626112 .shape-fill {
   fill: #8F090F;
 }
 /* end divider */
