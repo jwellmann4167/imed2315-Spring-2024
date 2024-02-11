@@ -38,7 +38,7 @@ h2 {
 }
 
 /* begin divider */
-.custom-shape-divider-top-1707351291 {
+.custom-shape-divider-top-1707351909 {
   position: relative;
   top: 0;
   left: 0;
@@ -48,14 +48,14 @@ h2 {
   transform: rotate(180deg);
 }
 
-.custom-shape-divider-top-1707351291 svg {
+.custom-shape-divider-top-1707351909 svg {
   position: relative;
   display: block;
-  width: calc(149% + 20px);
-  height: 138px;
+  width: calc(149% + 1.3px);
+  height: 58px;
 }
 
-.custom-shape-divider-top-1707351291 .shape-fill {
+.custom-shape-divider-top-1707351909 .shape-fill {
   fill: #8F090F;
 }
 /* end divider */
