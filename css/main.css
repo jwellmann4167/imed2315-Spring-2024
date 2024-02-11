@@ -8,7 +8,12 @@ body {
   
 }
 
-h1,
+h1{
+    font-family: "Purple Purse", cursive;
+    color: var(--secondaryColor) !important;
+
+
+  }
 h2 {
   font-family: "Purple Purse", cursive;
   color: var(--secondaryColor) !important;
