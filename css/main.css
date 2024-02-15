@@ -75,7 +75,7 @@ header divider
 .custom-shape-divider-top-1707626112 svg {
   position: relative;
   display: block;
-  width: calc(169% + 1.3px);
+  width: calc(169% + 1.3px) !important;
   height: 143px;
 }
 
