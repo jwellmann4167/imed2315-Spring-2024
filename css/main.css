@@ -20,7 +20,7 @@ h2 {
   font-family: "Purple Purse", cursive;
   height: auto;
   font-weight: bold;
-  color: var(--dominantColor) !important;
+  color: var(--secondaryColor) !important;
   font-size: 55px;
   padding-top: 40px;
   padding-bottom: 40px;
