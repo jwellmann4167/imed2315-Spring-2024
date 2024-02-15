@@ -49,7 +49,7 @@ header divider*
 }
 
 .custom-shape-divider-bottom-1707626366 .shape-fill {
-  fill:var(--dominantColor) !important;
+  fill: var(--dominantColor) !important;
 }
 header divider
 */
@@ -80,7 +80,7 @@ header divider
 }
 
 .custom-shape-divider-top-1707626112 .shape-fill {
-  fill:var(--dominantColor) !important;
+  fill: var(--dominantColor) !important;
 }
 
 /* end divider */
@@ -104,7 +104,7 @@ header divider
 }
 
 .custom-shape-divider-top-1707351909 .shape-fill {
-  fill:var(--dominantColor) !important;
+  fill: var(--dominantColor) !important;
 }
 
 /* end second divider */
@@ -127,7 +127,7 @@ header divider
 }
 
 .custom-shape-divider-bottom-1707352036 .shape-fill {
-  fill:var(--dominantColor) !important;
+  fill: var(--dominantColor) !important;
 }
 
 /* end second divider */
