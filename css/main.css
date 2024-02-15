@@ -5,15 +5,15 @@ html {
 body {
   font-family: "Roboto Slab", serif;
   background-color: #f2e6d9;
-  
+
 }
 
 h1,
 h2 {
   font-family: "Purple Purse", cursive;
   color: var(--secondaryColor) !important;
-  
-  
+
+
 }
 
 .top-logo {
@@ -22,7 +22,7 @@ h2 {
   font-weight: bold;
   color: var(--dominantColor) !important;
   font-size: 55px;
-padding-top: 40px;
+  padding-top: 40px;
   padding-bottom: 40px;
   background-color: #f2e6d9;
   font-size: 65px;
@@ -49,7 +49,7 @@ header divider*
 }
 
 .custom-shape-divider-bottom-1707626366 .shape-fill {
-  fill: #8F090F;
+  fill:var(--dominantColor) !important;
 }
 header divider
 */
@@ -80,8 +80,9 @@ header divider
 }
 
 .custom-shape-divider-top-1707626112 .shape-fill {
-  fill: #8F090F;
+  fill:var(--dominantColor) !important;
 }
+
 /* end divider */
 
 /* begin second divider */
@@ -103,8 +104,9 @@ header divider
 }
 
 .custom-shape-divider-top-1707351909 .shape-fill {
-  fill: #8F090F;
+  fill:var(--dominantColor) !important;
 }
+
 /* end second divider */
 
 /* begin bottom divider */
@@ -125,8 +127,9 @@ header divider
 }
 
 .custom-shape-divider-bottom-1707352036 .shape-fill {
-  fill: #8F090F;
+  fill:var(--dominantColor) !important;
 }
+
 /* end second divider */
 
 /*Begin Responsive Design*/
@@ -236,7 +239,7 @@ blockquote {
   line-height: 1.45;
   position: relative;
   color: var(--accentColor) !important;
-  
+
 }
 
 blockquote:before {
@@ -266,5 +269,5 @@ blockquote cite:before {
 .sidebar-icon a {
   color: var(--dominantColor) !important;
   text-decoration: none;
-  
+
 }
