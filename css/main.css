@@ -59,6 +59,7 @@ header divider*/
   color: #f2e6d9;
   background-color: var(--dominantColor) !important;
   letter-spacing: .1rem;
+  margin-top: 30px;
 }
 
 /* begin divider */
