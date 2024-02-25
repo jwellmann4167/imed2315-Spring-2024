@@ -31,7 +31,7 @@ h2 {
 }
 
 
-header divider*
+/*header divider*
 .custom-shape-divider-bottom-1707626366 {
   position: relative;
   bottom: 0;
@@ -51,7 +51,7 @@ header divider*
 .custom-shape-divider-bottom-1707626366 .shape-fill {
   fill: var(--dominantColor) !important;
 }
-header divider
+header divider*/
 
 
 .navbar {
