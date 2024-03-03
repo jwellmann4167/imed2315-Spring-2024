@@ -308,17 +308,17 @@
 
 .snazzymenu.light .menu-btn,
 .snazzymenu.light ul li a {
-    color: #000
+    color: var(--dominantColor) !important;
 }
 
 .snazzymenu.light.mobile .menu.caret li.has-sub .toggle:after {
-    border-bottom: 1px solid #000;
-    border-right: 1px solid #000
+    border-bottom: 1px solid var(--dominantColor) !important;;
+    border-right: 1px solid var(--dominantColor) !important;
 }
 
 .snazzymenu.light.mobile .menu.plus li.has-sub .toggle:after {
-    background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#000)), -webkit-gradient(linear, left top, left bottom, from(#000), to(#000));
-    background: linear-gradient(#000, #000), linear-gradient(#000, #000);
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--dominantColor) !important;), to(var(--dominantColor) !important;)), -webkit-gradient(linear, left top, left bottom, from(var(--dominantColor) !important;), to(var(--dominantColor) !important;));
+    background: linear-gradient(var(--dominantColor) !important;, var(--dominantColor) !important;), linear-gradient(var(--dominantColor) !important;, var(--dominantColor) !important;);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: 50% 2px, 2px 50%
@@ -337,8 +337,8 @@
 }
 
 .snazzymenu.light.desktop .menu>li.has-sub>a:after {
-    border-bottom: 1px solid #000;
-    border-right: 1px solid #000
+    border-bottom: 1px solid var(--dominantColor) !important;;
+    border-right: 1px solid var(--dominantColor) !important;
 }
 
 .snazzymenu.light.desktop .menu .mega-menu {
@@ -346,7 +346,7 @@
 }
 
 .snazzymenu.light .controls a {
-    color: #000
+    color: var(--dominantColor) !important;
 }
 
 .snazzymenu.desktop.no-controls .controls {
