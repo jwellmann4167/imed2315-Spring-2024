@@ -62,6 +62,14 @@ header divider*/
   
 }
 
+/*snazzymenu*/
+
+.snazzymenu {
+  background-color: var(--dominantColor) !important;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
 /* begin divider */
 .custom-shape-divider-top-1707626112 {
   position: relative;
