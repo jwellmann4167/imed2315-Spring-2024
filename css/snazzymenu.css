@@ -303,7 +303,7 @@
 }
 
 .snazzymenu.light {
-    background: hsla(0, 0%, 100%, .97)
+    background: var(--dominantColor) !important;
 }
 
 .snazzymenu.light .menu-btn,
@@ -325,15 +325,15 @@
 }
 
 .snazzymenu.light.desktop .menu {
-    background: hsla(0, 0%, 100%, .97)
+    background: var(--dominantColor) !important;
 }
 
 .snazzymenu.light.desktop .menu.open>li.active>a {
-    color: rgba(0, 0, 0, .6)
+    color: var(--dominantColor) !important;
 }
 
 .snazzymenu.light.desktop .menu.open>li.active>a:after {
-    border-color: rgba(0, 0, 0, .6)
+    border-color: var(--dominantColor) !important;
 }
 
 .snazzymenu.light.desktop .menu>li.has-sub>a:after {
@@ -342,7 +342,7 @@
 }
 
 .snazzymenu.light.desktop .menu .mega-menu {
-    background: hsla(0, 0%, 100%, .97)
+    background: var(--dominantColor) !important;
 }
 
 .snazzymenu.light .controls a {
