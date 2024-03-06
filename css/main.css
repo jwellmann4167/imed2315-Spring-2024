@@ -220,7 +220,7 @@ header divider*/
 .footer-row {
   background-color: var(--dominantColor) !important;
   padding-top: 35px;
-  padding-bottom: 35px;
+  padding-bottom: 0px;
 }
 
 .footer-row a {
