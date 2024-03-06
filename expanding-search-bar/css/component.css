@@ -50,19 +50,19 @@ input[type="search"].sb-search-input {
 
 /* browser specific placholder text color */
 .sb-search-input::-webkit-input-placeholder {
-	color: #f3747a;
+	color: #f2e6d9;
 }
 
 .sb-search-input:-moz-placeholder {
-	color: #f3747a;
+	color: #f2e6d9;
 }
 
 .sb-search-input::-moz-placeholder {
-	color: #f3747a;
+	color: #f2e6d9;
 }
 
 .sb-search-input:-ms-input-placeholder {
-	color: #f3747a;
+	color: #f2e6d9
 }
 /* format the search button and submit to share the same size and space */
 .sb-icon-search,
@@ -93,7 +93,7 @@ input[type="search"].sb-search-input {
 
 /* format the search icon */
 .sb-icon-search {
-	color: #fff;
+	color: #f2e6d9;
 	background: #8f090f;
 	z-index: 90;
 	font-size: 22px;
@@ -121,7 +121,7 @@ input[type="search"].sb-search-input {
 .sb-search.sb-search-open .sb-icon-search,
 .no-js .sb-search .sb-icon-search {
 	background: #8f090f;
-	color: #fff;
+	color: #f2e6d9;
 	z-index: 11;
 }
 
