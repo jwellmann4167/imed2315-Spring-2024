@@ -94,7 +94,7 @@ input[type="search"].sb-search-input {
 /* format the search icon */
 .sb-icon-search {
 	color: #fff;
-	background: var(--dominantColor) !important;
+	background: #8f090f;
 	z-index: 90;
 	font-size: 22px;
 	font-family: 'icomoon';
@@ -120,7 +120,7 @@ input[type="search"].sb-search-input {
 /* add the "active" color on the search button */
 .sb-search.sb-search-open .sb-icon-search,
 .no-js .sb-search .sb-icon-search {
-	background: var(--dominantColor) !important;
+	background: #8f090f;
 	color: #fff;
 	z-index: 11;
 }
