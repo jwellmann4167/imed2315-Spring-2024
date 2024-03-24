@@ -43,55 +43,19 @@
   <!-- HEADER -->
   <header>
 
-   
+
 
     <!-- Begin Google Icons -->
     <div class="container text-left top-logo">
       <div class="row">
         <div class="col-12 col-md-6">
-
-
           <span class="material-symbols-outlined">
             <a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"
               class="sidebar-icon">
               menu
             </a>
           </span>
-          <!-- Begin Modal Window-->
-          <div id="dialog-content" style="display:none;max-width:500px;">
           
-            <h2>Search for your favorite recipes!</h2>
-            <p>
-              <!--begin algolia-->
-            <div id="search">
-              <link rel="stylesheet"
-                href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
-              <script type="text/javascript"
-                src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
-              <script type="text/javascript">
-                algoliasearchNetlify({
-                  appId: '0L3WOM2W7L',
-                  apiKey: 'c8073f47bd336f4ec51c202ffb2dfd1d',
-                  siteId: '78c852a8-f70d-4690-a725-1d54adf2cfe4',
-                  branch: 'main',
-                  selector: 'div#search',
-                });
-              </script>
-              <!--end algolia-->
-            </div>
-          
-            </p>
-            <p>
-              Try entering any keywords for specific foods or types of meals.
-            </p>
-          
-          </div>
-          
-          
-          <button data-fancybox data-src="#dialog-content">Recipe Search Here!</button>
-          
-          
-          <!-- End Modal Window-->
           </span>
         </div>
         <div class="col-12 col-md-6">Easy Texas Keto</div>
@@ -210,6 +174,41 @@
 
       <!-- Start SnazzyMenu -->
       <div class="snazzymenu">
+        <!-- Begin Modal Window-->
+        <div id="dialog-content" style="display:none;max-width:500px;">
+        
+          <h2>Search for your favorite recipes!</h2>
+          <p>
+            <!--begin algolia-->
+          <div id="search">
+            <link rel="stylesheet"
+              href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+            <script type="text/javascript"
+              src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+            <script type="text/javascript">
+              algoliasearchNetlify({
+                appId: '0L3WOM2W7L',
+                apiKey: 'c8073f47bd336f4ec51c202ffb2dfd1d',
+                siteId: '78c852a8-f70d-4690-a725-1d54adf2cfe4',
+                branch: 'main',
+                selector: 'div#search',
+              });
+            </script>
+            <!--end algolia-->
+          </div>
+        
+          </p>
+          <p>
+            Try entering any keywords for specific foods or types of meals.
+          </p>
+        
+        </div>
+        
+        
+        <button data-fancybox data-src="#dialog-content">Recipe Search Here!</button>
+        
+        
+        <!-- End Modal Window-->
 
         <ul id="menu-main-nav" class="menu">
           <li class="menu-item-has-children"><a href="">Nav Item</a>
