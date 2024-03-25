@@ -607,11 +607,10 @@
     background-color: #f2e6d9 !important;
     border: 2px !important;
     border-color: #f3747a;
-    var(--accentColor) !important;
     border-style: hidden;
     color: #8f090f;
-    var(--dominantColor) !important;
     font-family: 'Sora', sans-serif, !important;
     font-weight: bold;
     font-size: 15px;
+    letter-spacing: .1rem;
 }
