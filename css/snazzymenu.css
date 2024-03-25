@@ -594,3 +594,7 @@
 }
 
 /*# sourceMappingURL=snazzymenu.css.map */
+
+.btn btn-primary {
+    background-color: red !important border: 0px;
+}
