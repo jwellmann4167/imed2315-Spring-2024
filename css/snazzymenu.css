@@ -605,11 +605,10 @@
 
 .btn-primary {
     background-color: #f2e6d9 !important;
-    border: 1px !important;
-    border-color: #8f090f;
-        var(--dominantColor) !important;;
+    border: 0px !important;
     color: #8f090f;
     var(--dominantColor) !important;
+    font-family: "aria";
     font-weight: bold;
     font-size: 15px;
     letter-spacing: .1rem;
