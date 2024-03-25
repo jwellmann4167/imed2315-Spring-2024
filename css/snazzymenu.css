@@ -605,8 +605,9 @@
 
 .btn-primary {
     background-color: #f2e6d9 !important;
-    border: 0px !important;
-    font-family: "Times New Roman";
+    border: 1px !important;
+    border-color: #8f090f;
+        var(--dominantColor) !important;;
     color: #8f090f;
     var(--dominantColor) !important;
     font-weight: bold;
