@@ -596,6 +596,9 @@
 /*# sourceMappingURL=snazzymenu.css.map */
 
 .btn-primary {
-    background-color: red !important;
-     border: 0px;
+    background-color: #f2e6d9 !important;
+font-family: "Purple Purse", cursive;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: .1rem;
 }
