@@ -606,7 +606,9 @@
 
 .btn-primary {
     background-color: #f2e6d9 !important;
-    border: 0px !important;
+    border: 2px !important;
+    border-color: #f3747a;
+        var(--accentColor) !important;
     color: #8f090f;
     var(--dominantColor) !important;
     font-family: 'Sora', sans-serif;
