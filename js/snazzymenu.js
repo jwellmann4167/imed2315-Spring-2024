@@ -47,7 +47,7 @@
          * Default options
          * 
          */
-        const defaults = {
+        /**const defaults = {
             theme: 'dark',
             breakpoint: 1024,
             sticky: true,
@@ -61,7 +61,7 @@
             setImages: [],
             noControls: false,
         };
-
+         */
 
         /**
          * 
