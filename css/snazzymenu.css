@@ -161,7 +161,7 @@
     border: 4px solid;
     border-left: none;
     border-right: none;
-    color: rgba(0,0,0,.95);
+    color: #f2e6d9;
     cursor: pointer;
     display: block;
     font-size: 0;
@@ -265,17 +265,17 @@
 
 .snazzymenu.dark .menu-toggle,
 .snazzymenu.dark ul li a {
-    color: rgba(0,0,0,.95)
+    color: #f2e6d9
 }
 
 .snazzymenu.dark.mobile .menu.caret li.has-sub .toggle:after {
-    border-bottom: 1px solid rgba(0,0,0,.95);
-    border-right: 1px solid rgba(0,0,0,.95)
+    border-bottom: 1px solid #f2e6d9;
+    border-right: 1px solid #f2e6d9
 }
 
 .snazzymenu.dark.mobile .menu.plus li.has-sub .toggle:after {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,.95)), to(rgba(0,0,0,.95))), -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,.95)), to(rgba(0,0,0,.95)));
-    background: linear-gradient(rgba(0,0,0,.95), rgba(0,0,0,.95)), linear-gradient(rgba(0,0,0,.95), rgba(0,0,0,.95));
+    background: -webkit-gradient(linear, left top, left bottom, from(#f2e6d9), to(#f2e6d9)), -webkit-gradient(linear, left top, left bottom, from(#f2e6d9), to(#f2e6d9));
+    background: linear-gradient(#f2e6d9, #f2e6d9), linear-gradient(#f2e6d9, #f2e6d9);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: 50% 2px, 2px 50%
@@ -295,8 +295,8 @@
 }
 
 .snazzymenu.dark.desktop .menu>li.has-sub>a:after {
-    border-bottom: 1px solid rgba(0,0,0,.95);
-    border-right: 1px solid rgba(0,0,0,.95)
+    border-bottom: 1px solid #f2e6d9;
+    border-right: 1px solid #f2e6d9
 }
 
 .snazzymenu.dark.desktop .menu .mega-menu {
@@ -305,7 +305,7 @@
 }
 
 .snazzymenu.dark .controls a {
-    color: rgba(0,0,0,.95)
+    color: #f2e6d9
 }
 
 .snazzymenu.light {
@@ -604,7 +604,7 @@
 /*# sourceMappingURL=snazzymenu.css.map */
 
 .btn-primary {
-    background-color: rgba(0,0,0,.95) !important;
+    background-color: #f2e6d9 !important;
     border: 0px !important;
     color: #8f090f;
     font-family: 'Sora', sans-serif, !important;
