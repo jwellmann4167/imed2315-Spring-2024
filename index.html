@@ -55,7 +55,7 @@
               menu
             </a>
           </span>
-          
+
           </span>
         </div>
         <div class="col-12 col-md-6">Easy Texas Keto</div>
@@ -71,6 +71,7 @@
     <!-- End Google Icons -->
 
     <!-- Begin OffCanvas -->
+
 
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
       <div class="offcanvas-header">
@@ -169,45 +170,45 @@
       </div>
 
       End Top Nav Bar -->
+    <!-- Begin Modal Window-->
+    <div id="dialog-content" style="display:none;max-width:500px;">
 
+      <h2>Search for your favorite recipes!</h2>
+      <p>
+        <!--begin algolia-->
+      <div id="search">
+        <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+        <script type="text/javascript"
+          src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+        <script type="text/javascript">
+          algoliasearchNetlify({
+            appId: '0L3WOM2W7L',
+            apiKey: 'c8073f47bd336f4ec51c202ffb2dfd1d',
+            siteId: '78c852a8-f70d-4690-a725-1d54adf2cfe4',
+            branch: 'main',
+            selector: 'div#search',
+          });
+        </script>
+        <!--end algolia-->
+      </div>
+
+      </p>
+      <p>
+        Try entering any keywords for specific foods or types of meals.
+      </p>
+
+    </div>
+
+
+    <button data-fancybox data-src="#dialog-content" class="btn-primary">Recipe Search Here!</button>
+
+    <!-- End Modal Window-->
     <nav>
 
       <!-- Start SnazzyMenu -->
       <div class="snazzymenu">
-        <!-- Begin Modal Window-->
-        <div id="dialog-content" style="display:none;max-width:500px;">
-        
-          <h2>Search for your favorite recipes!</h2>
-          <p>
-            <!--begin algolia-->
-          <div id="search">
-            <link rel="stylesheet"
-              href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
-            <script type="text/javascript"
-              src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
-            <script type="text/javascript">
-              algoliasearchNetlify({
-                appId: '0L3WOM2W7L',
-                apiKey: 'c8073f47bd336f4ec51c202ffb2dfd1d',
-                siteId: '78c852a8-f70d-4690-a725-1d54adf2cfe4',
-                branch: 'main',
-                selector: 'div#search',
-              });
-            </script>
-            <!--end algolia-->
-          </div>
-        
-          </p>
-          <p>
-            Try entering any keywords for specific foods or types of meals.
-          </p>
-        
-        </div>
-        
-        
-          <button data-fancybox data-src="#dialog-content" class="btn-primary">Recipe Search Here!</button>
 
-        <!-- End Modal Window-->
 
         <ul id="menu-main-nav" class="menu">
           <li class="menu-item-has-children"><a href="">Nav Item</a>
@@ -472,8 +473,8 @@
     <!-- End Carousel-->
 
     <!-- Begin Font Awesome Section -->
-    
-    
+
+
     <div class="container-fluid text-center fa-row">
       <div class="row">
         <div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2">
@@ -503,7 +504,6 @@
       </div>
     </div>
     <!-- End Font Awesome Section -->
-
     <!-- begin second divider -->
     <div class="custom-shape-divider-top-1707351909">
       <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -623,7 +623,7 @@
     </svg>
   </div>
   <!-- end botton divider -->
-    <!-- FOOTER -->
+  <!-- FOOTER -->
 
   <footer>
     <div class="container-fluid text-center footer-row" id="footerInfo">
@@ -695,11 +695,12 @@
       breakpoint: 1000,
       // sticky: true,
       // toggleBtn: 'plus',
-      // homeBtn: '<img src="./images/snazzy/logo1.png" alt="logo" />',
+      //homeBtn: '<img src="./images/snazzy/logo1.png" alt="logo" />',
       //locationBtn: 'https://www.google.com/maps',
       // locationLabel: 'Visit Us',
-      //phoneBtn: '1-555-555-5555',
+      // phoneBtn: '1-555-555-5555',
       // phoneLabel: 'Contact',
+
       setColumnClasses: true,
       setImages: [
         'images/gallery/cropped/gallery-5.jpg',
@@ -737,4 +738,5 @@
   <!-- JS SECTION-->
 </section>
 <!-- SECTION -->
+
 </html>
