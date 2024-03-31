@@ -87,9 +87,9 @@
 }
 
 .snazzymenu {
-    border-bottom: 1px solid var(--dominantColor) !important;
+    border-bottom: 1px solid rgba(0,0,0,.95);
     ;
-    border-top: 1px solid var(--dominantColor) !important;
+    border-top: 1px solid rgba(0,0,0,.95);
     ;
     position: absolute;
     width: 100%;
@@ -137,7 +137,7 @@
 }
 
 .close-overlay {
-    background: var(--dominantColor) !important;
+    background: rgba(0,0,0,.95);
     ;
     bottom: 0;
     height: 100%;
@@ -259,7 +259,7 @@
 }
 
 .snazzymenu.dark {
-    background: var(--dominantColor) !important;
+    background: rgba(0,0,0,.95);
     )
 }
 
@@ -282,7 +282,7 @@
 }
 
 .snazzymenu.dark.desktop .menu {
-    background: var(--dominantColor) !important;
+    background: rgba(0,0,0,.95);
     )
 }
 
@@ -300,7 +300,7 @@
 }
 
 .snazzymenu.dark.desktop .menu .mega-menu {
-    background-color: var(--dominantColor) !important;
+    background-color: rgba(0,0,0,.95);
     )
 }
 
@@ -309,52 +309,52 @@
 }
 
 .snazzymenu.light {
-    background: var(--dominantColor) !important;
+    background: rgba(0,0,0,.95);
 }
 
 .snazzymenu.light .menu-btn,
 .snazzymenu.light ul li a {
-    color: var(--dominantColor) !important;
+    color: rgba(0,0,0,.95);
 }
 
 .snazzymenu.light.mobile .menu.caret li.has-sub .toggle:after {
-    border-bottom: 1px solid var(--dominantColor) !important;
+    border-bottom: 1px solid rgba(0,0,0,.95);
     ;
-    border-right: 1px solid var(--dominantColor) !important;
+    border-right: 1px solid rgba(0,0,0,.95);
 }
 
 .snazzymenu.light.mobile .menu.plus li.has-sub .toggle:after {
-    background: -webkit-gradient(linear, left top, left bottom, from(var(--dominantColor) !important; ), to(var(--dominantColor) !important; )), -webkit-gradient(linear, left top, left bottom, from(var(--dominantColor) !important; ), to(var(--dominantColor) !important; ));
-    background: linear-gradient(var(--dominantColor) !important; , var(--dominantColor) !important; ), linear-gradient(var(--dominantColor) !important; , var(--dominantColor) !important; );
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,.95); ), to(rgba(0,0,0,.95); )), -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,.95); ), to(rgba(0,0,0,.95); ));
+    background: linear-gradient(rgba(0,0,0,.95); , rgba(0,0,0,.95); ), linear-gradient(rgba(0,0,0,.95); , rgba(0,0,0,.95); );
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: 50% 2px, 2px 50%
 }
 
 .snazzymenu.light.desktop .menu {
-    background: var(--dominantColor) !important;
+    background: rgba(0,0,0,.95);
 }
 
 .snazzymenu.light.desktop .menu.open>li.active>a {
-    color: var(--dominantColor) !important;
+    color: rgba(0,0,0,.95);
 }
 
 .snazzymenu.light.desktop .menu.open>li.active>a:after {
-    border-color: var(--dominantColor) !important;
+    border-color: rgba(0,0,0,.95);
 }
 
 .snazzymenu.light.desktop .menu>li.has-sub>a:after {
-    border-bottom: 1px solid var(--dominantColor) !important;
+    border-bottom: 1px solid rgba(0,0,0,.95);
     ;
-    border-right: 1px solid var(--dominantColor) !important;
+    border-right: 1px solid rgba(0,0,0,.95);
 }
 
 .snazzymenu.light.desktop .menu .mega-menu {
-    background: var(--dominantColor) !important;
+    background: rgba(0,0,0,.95);
 }
 
 .snazzymenu.light .controls a {
-    color: var(--dominantColor) !important;
+    color: rgba(0,0,0,.95);
 }
 
 .snazzymenu.desktop.no-controls .controls {
