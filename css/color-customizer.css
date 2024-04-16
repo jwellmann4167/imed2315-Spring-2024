@@ -48,3 +48,10 @@ color-input {
     border-radius: 4px;
     padding: 0.3em;
 }
+
+.color-customizer-wrapper p {
+    
+    color: #000000 !important;
+            padding-bottom: 20px;
+    
+}   
