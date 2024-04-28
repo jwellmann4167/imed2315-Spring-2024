@@ -1,7 +1,7 @@
 @import "main.css";
 @import "custom.css";
 
-,offcanvas offcanvas-start {
+.offcanvas offcanvas-start {
     font-family: "Purple Purse", cursive;
         height: auto;
         font-weight: bold;
