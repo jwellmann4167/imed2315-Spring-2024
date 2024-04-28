@@ -31,27 +31,6 @@ h2 {
 }
 
 
-/*header divider*
-.custom-shape-divider-bottom-1707626366 {
-  position: relative;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.custom-shape-divider-bottom-1707626366 svg {
-  position: relative;
-  display: block;
-  width: calc(169% + 1.3px);
-  height: 143px;
-}
-
-.custom-shape-divider-bottom-1707626366 .shape-fill {
-  fill: var(--dominantColor) !important;
-}
-header divider*/
 
 
 .navbar {
@@ -199,16 +178,7 @@ header divider*/
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-/* ADD THE CLASS .custom-toggler TO THE HAMBURGER MENU*/
 
-/*
-#my-google-fonts {
-  color: green;
-  font-weight: bold;
-  font-size: 40px;
-  font-family: "Roboto Mono", monospace;
-}
-*/
 
 .material-symbols-outlined {
   color: var(--dominantColor) !important;
